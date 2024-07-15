@@ -13,6 +13,9 @@
             color: #ccc;
             padding: 10px 0;
         }
+        header h1{
+            font-family: Play;
+        }
 
         .navbar {
             background-color: rgb(56, 22, 88); /* Cor de fundo da navbar */
