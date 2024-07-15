@@ -1,0 +1,32 @@
+        /* Estilos CSS adicionais para o carousel responsivo */
+        #carousel-primario {
+            max-height: 400px; /* Altura máxima do carousel */
+            overflow: hidden; /* Esconder partes das imagens que ultrapassem a altura */
+        }
+        .carousel-inner .carousel-item img {
+            height: 100%; /* Garantir que as imagens ocupem toda a altura do carousel */
+            object-fit: cover; /* Manter proporção da imagem e cortar o excesso */
+        }
+
+        header {
+            background-color: rgb(56, 22, 88);
+            color: #ccc;
+            padding: 10px 0;
+        }
+
+        .navbar {
+            background-color: rgb(56, 22, 88); /* Cor de fundo da navbar */
+            color: #ccc; /* Cor do texto da navbar */
+        }
+
+        .navbar .navbar-brand {
+            color: #ccc; /* Cor do texto do brand (logo) */
+        }
+
+        .navbar .nav-link {
+            color: #ccc; /* Cor do texto dos links */
+        }
+
+        .navbar .nav-link:hover {
+            color: #fff; /* Cor do texto dos links ao passar o mouse */
+        }
