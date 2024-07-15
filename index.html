@@ -4,47 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Estilos CSS adicionais para o carousel responsivo */
-        #carousel-primario {
-            max-height: 400px; /* Altura máxima do carousel */
-            overflow: hidden; /* Esconder partes das imagens que ultrapassem a altura */
-        }
-        .carousel-inner .carousel-item img {
-            height: 100%; /* Garantir que as imagens ocupem toda a altura do carousel */
-            object-fit: cover; /* Manter proporção da imagem e cortar o excesso */
-        }
-
-        header {
-            background-color: rgb(56, 22, 88);
-            color: #ccc;
-            padding: 10px 0;
-        }
-
-        .navbar {
-            background-color: rgb(56, 22, 88); /* Cor de fundo da navbar */
-            color: #ccc; /* Cor do texto da navbar */
-        }
-
-        .navbar .navbar-brand {
-            color: #ccc; /* Cor do texto do brand (logo) */
-        }
-
-        .navbar .nav-link {
-            color: #ccc; /* Cor do texto dos links */
-        }
-
-        .navbar .nav-link:hover {
-            color: #fff; /* Cor do texto dos links ao passar o mouse */
-        }
-    </style>
+    <link rel="stylesheet" href="main.css"> 
     <title>adote.com</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#">adote.com</a>
+                <h1 class="navbar-brand">adote.com</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -54,10 +21,10 @@
                             <a class="nav-link" href="#GatosParaAdocao">Adote</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formulário de interesse</a>
+                            <a class="nav-link" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#">Formulário de interesse</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Entre em contato</a>
@@ -89,7 +56,11 @@
             <span class="sr-only">Próximo</span>
         </a>
     </div>
+<section id="Sobre">
+<div class="container">
 
+</div>
+</section>
     <section id="GatosParaAdocao" class="mt-4">
         <div class="container">
             <h2>Lista para adoção</h2>
@@ -133,7 +104,9 @@
             </div>
         </div>
     </section>
-
+<footer>
+    
+</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
