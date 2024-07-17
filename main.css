@@ -13,8 +13,14 @@
             color: #ccc;
             padding: 10px 0;
         }
-        header h1{
+        h1,
+        h2 {
             font-family: "Playwrite HR", cursive;
+        }
+
+        h3,
+        p{
+            font-family: 'Times New Roman', Times, serif;
         }
 
         .navbar {
@@ -32,4 +38,16 @@
 
         .navbar .nav-link:hover {
             color: #fff; /* Cor do texto dos links ao passar o mouse */
+        }
+        
+        #formularioDeInteresse
+        {
+            background-color: rgb(56, 22, 88);
+        }
+        #enviar-formulario{
+            background-color: rgb(106, 27, 179);
+        }
+
+        #titulo-formulario{
+            color: #ccc;
         }
