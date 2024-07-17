@@ -51,3 +51,15 @@
         #titulo-formulario{
             color: #ccc;
         }
+
+        .social-links li{
+            list-style: none;
+            display: inline;
+        }
+        .linkcor{
+            color: black;
+        }
+    footer{
+        background-color: rgb(56, 22, 88);
+        color: #ccc;
+    }
